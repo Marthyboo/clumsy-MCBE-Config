@@ -2,7 +2,7 @@
 
 __clumsy makes your network condition on Windows significantly worse, but in a managed and interactive manner.__
 
-Leveraging the awesome [WinDivert](http://reqrypt.org/windivert.html), clumsy stops living network packets and capture them, lag/drop/tamper/.. the packets on demand, then send them away. Whether you want to track down weird bugs related to broken network, or evaluate your application on poor connections, clumsy will come in handy:
+
 
 * No installation.
 * No need for proxy setup or code change in your application.
@@ -16,11 +16,4 @@ See [this page](http://jagt.github.io/clumsy) for more info and build instructio
 
 ## Details
 
-Simulate network latency, delay, packet loss with clumsy on Windows 7/8/10:
-
-![](clumsy-demo.gif)
-
-
-## License
-
-MIT
+Simulate network latency, delay, packet loss with clumsy on Windows 8/10/11:
