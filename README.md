@@ -1,5 +1,7 @@
 # clumsy
 
+Regular Clumsy, But Works for MCBE Only
+
 __clumsy makes your network condition on Windows significantly worse, but in a managed and interactive manner.__
 
 
