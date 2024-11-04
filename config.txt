@@ -1,0 +1,19 @@
+# filters presets. clumsy will capture packets based on filter criteria
+# each entry must contain a single line
+# filter-name:filter-text
+# see <https://github.com/basil00/Divert/wiki/WinDivert-Documentation#7-filter-language> for details
+
+# loopback packets can only be filtered using 'outbound'.
+
+# general filters
+all sending packets: outbound
+all receiving packets: inbound
+
+# Minecraft Bedrock filters
+Minecraft only - receiving: inbound and (udp.DstPort == 19132 or udp.SrcPort == 19132)
+Minecraft only - sending: outbound and (udp.DstPort == 19132 or udp.SrcPort == 19132)
+Minecraft only - all traffic: (udp.DstPort == 19132 or udp.SrcPort == 19132)
+
+# specific filters can be added below
+
+# IPv6 support, usually not necessary for Minecraft Bedrock
