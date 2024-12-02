@@ -1,6 +1,10 @@
 # clumsy
 
 Regular Clumsy, But Works for MCBE Only
+Servers that it works in: 
+- Hive
+- Cubecraft
+- 
 
 __clumsy makes your network condition on Windows significantly worse, but in a managed and interactive manner.__
 
